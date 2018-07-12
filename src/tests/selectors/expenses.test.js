@@ -1,5 +1,5 @@
 import moment from 'moment';
-import selectExpenses from '../../selecters/expenses';
+import selectExpenses from '../../selectors/expenses';
 import expenses from '../mocks/expenses';
 
 test('should filter by text value', ()  => {
